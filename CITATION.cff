@@ -5,11 +5,12 @@ type: software
 version: 0.1.0
 date-released: 2026-10-15
 authors:
-  - given-names: "Pedro"
-    family-names: "PREENCHER-SOBRENOME"
-    # orcid: "https://orcid.org/0000-0000-0000-0000"
-    # affiliation: "INPE"
+  - given-names: "Pedro de Moraes"
+    family-names: "Machado"
+    orcid: "https://orcid.org/0009-0002-9702-3163"
+    affiliation: "Instituto Federal de São Paulo (IFSP)"
 repository-code: "https://github.com/Pedrocs50/mestrado-xai-inpe"
+license: MIT
 keywords:
   - explainable AI
   - XAI
