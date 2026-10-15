@@ -11,8 +11,14 @@ authors:
     affiliation: "Instituto Federal de São Paulo (IFSP)"
 repository-code: "https://github.com/Pedrocs50/mestrado-xai-inpe"
 license: MIT
+abstract: "Código, dados sintéticos e notas de pesquisa para avaliar a consistência temporal e física de explicações (SHAP e LIME) de modelos de previsão de eventos extremos, usando dinâmicas conhecidas (Ginzburg-Landau, mapas acoplados) e validação em clima espacial."
 keywords:
   - explainable AI
   - XAI
-  - plasma
+  - SHAP
+  - LIME
+  - time series
+  - extreme events
+  - Ginzburg-Landau
   - space weather
+  - plasma

@@ -1,14 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
 [project]
 name = "mestrado"
 version = "0.1.0"
-description = "Código e experimentos do mestrado em XAI aplicada a plasma e clima espacial"
+description = "Código e experimentos do mestrado em XAI aplicada a eventos extremos (clima espacial e plasma)"
 requires-python = ">=3.11"
 dependencies = [
   "numpy",
   "pandas",
   "scipy",
   "scikit-learn",
+  "xgboost",
   "matplotlib",
+  "pyyaml",
   "torch",
   "shap",
   "lime",
@@ -23,9 +29,23 @@ dev = [
   "jupyterlab",
   "dvc",
 ]
+# Download reproduzível de OMNI e índices via HAPI
+data = [
+  "hapiclient",
+]
+# Integrated Gradients e GradientSHAP como comparação opcional
+xai-extra = [
+  "captum",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mestrado"]
 
 [tool.ruff]
 line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
