@@ -1,0 +1,31 @@
+[project]
+name = "mestrado"
+version = "0.1.0"
+description = "Código e experimentos do mestrado em XAI aplicada a plasma e clima espacial"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy",
+  "pandas",
+  "scipy",
+  "scikit-learn",
+  "matplotlib",
+  "torch",
+  "shap",
+  "lime",
+  "mlflow",
+]
+
+[dependency-groups]
+dev = [
+  "pytest",
+  "ruff",
+  "pre-commit",
+  "jupyterlab",
+  "dvc",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
