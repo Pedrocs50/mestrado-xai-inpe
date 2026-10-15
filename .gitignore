@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+
+# Dados e modelos pesados (versionar com DVC, nao com Git)
+data/raw/
+data/interim/
+data/processed/
+*.h5
+*.pt
+*.pth
+*.ckpt
+mlruns/
+wandb/
+
+# Sistema
+.DS_Store
+Thumbs.db
+.vscode/
