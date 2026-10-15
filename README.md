@@ -45,6 +45,4 @@ Veja [CITATION.cff](CITATION.cff). Cada marco do projeto gera uma release com DO
 
 ## Licença
 
-A definir (sugestão: MIT para código, CC-BY 4.0 para texto e dados próprios).
-# mestrado-xai-inpe
-Caderno de pesquisa, código e experimentos do meu mestrado em XAI aplicada a plasma e clima espacial (INPE).
+Código sob licença MIT (veja o arquivo [LICENSE](LICENSE)). Para texto e dados próprios, a sugestão é CC-BY 4.0 (a definir).
